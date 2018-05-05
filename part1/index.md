@@ -3,7 +3,8 @@
 * ServiceBean
 * ServiceFactory
 * PublishPolicy
-  * DefaultPublishPolicy
+  * AbstractPublishPolicy
+    * DefaultPublishPolicy
 * ServicePublisher
 * InitializingService
 * ServiceMethodFactory
@@ -26,6 +27,4 @@
 ### 服务注册过程
 
 ![](/assets/ServicePublisher.png)
-
-
 
