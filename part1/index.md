@@ -17,5 +17,15 @@
 * ThreadPool
   * DynamicThreadPool
 
+# 时序图
+
+### 容器启动过程
+
+![](/assets/Provider_Container_UP.png)
+
+### 服务注册过程
+
+![](/assets/ServicePublisher.png)
+
 
 
