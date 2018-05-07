@@ -1,4 +1,4 @@
-# 目录
+# Summary
 
 * [序](/README.md)
 * [项目概要](/introduce.md)
@@ -6,9 +6,10 @@
   * [源码分析（服务注册）](/part1/1-1.md)
   * [源码分析（启动Server）](/part1/1-2.md)
   * [源码分析（服务发布）](/part1/1-3.md)
-  * [服务注册相关属性配置及其说明](/part1/1-4.md)
 * [服务发现](/part2/index.md)
 * [服务调用过程](/part3/index.md)
+* [附录](/appendix/index.md)
+  * [属性配置及其说明](/appendix/a-1.md)
 
 
 
