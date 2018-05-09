@@ -39,9 +39,9 @@
 
 ### Server启动过程
 
-![](/assets/Provider_Container_UP.png)
+![](/assets/服务端启动.png)
 
 ### 服务注册过程
 
-![](/assets/ServicePublisher.png)
+![](/assets/服务注册%28发布%29.png)
 

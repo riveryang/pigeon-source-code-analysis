@@ -4,7 +4,7 @@ Pigeon是一个分布式的RPC框架，由点评开发并开源，目前最新�
 
 Pigeon的服务开发有两种模式，Spring Schema和Annotation，两种模式对Spring都有强依赖，在使用过程中无论是使用Spring Schema或Annotation的方式，都需要依赖Spring。
 
-![](/assets/SimpleArch.png)
+![](/assets/简要架构.png)
 
 Pigeon分为两部分，服务提供端和服务消费端，通过注册中心进行配置同步。
 

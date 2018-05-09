@@ -10,4 +10,7 @@
 * [服务调用过程](/part3/index.md)
 * [附录](/appendix/index.md)
   * [属性配置及其说明](/appendix/a-1.md)
+  * [公共加载过程](/appendix/a-2.md)
+
+
 
