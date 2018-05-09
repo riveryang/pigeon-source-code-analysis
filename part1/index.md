@@ -57,6 +57,8 @@
 ##### Annotation：
 
 ```java
+import com.dianping.pigeon.remoting.provider.config.annotation.Service;
+
 @Service(url = "http://service.pigeon.dianping.com/demo/helloWorldService_1.0.0")
 public class HelloWorldServiceImpl implements HelloWorldService {
 
