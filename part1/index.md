@@ -56,7 +56,26 @@
 
 ##### Annotation：
 
+```xml
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns:context="http://www.springframework.org/schema/context"
+		xmlns:tx="http://www.springframework.org/schema/tx" 
+		xmlns:pigeon="http://code.dianping.com/schema/pigeon"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd 
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd 
+		http://code.dianping.com/schema/pigeon http://code.dianping.com/schema/pigeon/pigeon-service-2.0.xsd">
+		
+		<!-- 默认只扫描com.dianping包，如果非此包下的服务需要自定义package属性，多个package以逗号,分隔-->
+        <pigeon:annotation package="org.dianping.pigeon.service" />
+		
+</beans>
+```
+
 ```java
+package org.dianping.pigeon.service;
+
 import com.dianping.pigeon.remoting.provider.config.annotation.Service;
 
 @Service(url = "http://service.pigeon.dianping.com/demo/helloWorldService_1.0.0")
