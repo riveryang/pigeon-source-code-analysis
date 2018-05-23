@@ -93,7 +93,6 @@ public class HelloWorldServiceImpl implements HelloWorldService {
 
 * ServiceInitializeListener
   * ServiceBean
-* ServiceFactory
 * ServicePublisher
 * ProviderBootstrap
 * Server
