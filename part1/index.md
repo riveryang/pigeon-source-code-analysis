@@ -94,6 +94,7 @@ public class HelloWorldServiceImpl implements HelloWorldService {
 * ServiceInitializeListener
   * ServiceBean
 * ServicePublisher
+* RegistryManager
 * ProviderBootstrap
 * Server
   * AbstractServer
