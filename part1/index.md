@@ -106,9 +106,13 @@ public class HelloWorldServiceImpl implements HelloWorldService {
 
 # 时序图
 
+### 服务端初始化过程
+
+![](/assets/服务端初始化.png)
+
 ### Server启动过程
 
-![](/assets/服务端启动.png)
+![](/assets/服务端Server启动.png)
 
 ### 服务注册过程
 
